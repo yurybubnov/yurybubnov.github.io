@@ -5,11 +5,7 @@ permalink: /about/
 published: true
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself. 
+I'm software engineer and a geek. Like to make things **_just_** work. 
 
 ### Contact me
 
