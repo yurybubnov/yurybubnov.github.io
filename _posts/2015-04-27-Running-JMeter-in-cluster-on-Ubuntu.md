@@ -36,7 +36,7 @@ Sicne we need listerning ports available on both sides, easiest way to run JMete
 If you don't know SSH tunneling, read [this](http://linuxcommand.org/man_pages/ssh1.html).  
 
 ####Server Configuration
-Add/modify following in `jmeter.properties`. Change ports to differnt values for every Server.
+Add/modify following in `user.properties`. Change ports to differnt values for every Server.
 {%highlight bash%}
 server_port=24001 
 server.rmi.port=24001 #Save value as above
@@ -48,7 +48,7 @@ In `jmeter-server` add following to start parameters. First one is to forces JMe
 {%endhighlight%}
 
 ####Client Configuration
-Add/modify following in `jmeter.properties`. In addition to those properties, you might want to modify 'mode' to fit your requirement. 
+Add/modify following in `user.properties`. In addition to those properties, you might want to modify 'mode' to fit your requirement. 
 {%highlight bash%}
 remote_hosts=127.0.0.1:24001
 client.rmi.localport=25000
