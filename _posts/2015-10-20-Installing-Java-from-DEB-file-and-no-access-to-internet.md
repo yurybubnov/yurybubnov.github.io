@@ -6,13 +6,14 @@ Sometome you need to install Oracle Java on Ubuntu box which has no access to in
 
 ##Obtain nessesary files
 You'll need two files on Ubuntu box.
-* DEB installer file could be downloaded from [PPA](http://ppa.launchpad.net/webupd8team/java/ubuntu/pool/main/o/)
-* Download appropriate TAR.GZ file from [JDK downlaod page](http://www.oracle.com/technetwork/java/javase/downloads/index.html). If you downloaded `oracle-java8-installer_8u60+8u60arm-1~webupd8~1_all.deb`, you'll need `jdk-8u60-linux-x64.tar.gz`
+- DEB installer file could be downloaded from [PPA](http://ppa.launchpad.net/webupd8team/java/ubuntu/pool/main/o/)
+- Download appropriate TAR.GZ file from [JDK downlaod page](http://www.oracle.com/technetwork/java/javase/downloads/index.html). If you downloaded `oracle-java8-installer_8u60+8u60arm-1~webupd8~1_all.deb`, you'll need `jdk-8u60-linux-x64.tar.gz`
 
 ##Isntallation steps
 On target Ubuntu box, execute following:
-* Create folder `/var/cache/oracle-jdk8-installer` and place TAR.GZ file there (change folder name if nessesary)
-* Execute `install` on DEB file
+- Create folder `/var/cache/oracle-jdk8-installer` and place TAR.GZ file there (change folder name if nessesary)
+- Execute `install` on DEB file
+ 
 {%highlight bash%}
 > mkdir /var/cache/oracle-jdk8-installer
 > mv ./jdk-8u60-linux-x64.tar.gz /var/cache/oracle-jdk8-installer
