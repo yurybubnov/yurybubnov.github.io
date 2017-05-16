@@ -8,16 +8,18 @@ In this case you need to create local copy of the repository. Following, I'll de
 
 You'll need one Ubuntu box which has connection to the Internet to create local copy of the Docker repo.
 
-{%highlight bash%}
+```bash
 >sudo apt-get update
 >sudo apt-get install apt-mirror
-{% endhighlight %}
+```
 
 Create ```mirror.list``` file.
 
-{%highlight bash%}
->sudo sh -c "echo 'deb https://get.docker.com/ubuntu docker main\ndeb-i386 https://get.docker.com/ubuntu docker main\ndeb-amd64 https://get.docker.com/ubuntu docker main'>/etc/apt/mirror.list"
-{%endhighlight%}
+```bash
+>sudo sh -c "echo 'deb https://get.docker.com/ubuntu docker main
+deb-i386 https://get.docker.com/ubuntu docker main
+deb-amd64 https://get.docker.com/ubuntu docker main'>/etc/apt/mirror.list"
+```
 
 Now run ```apt-mirror```.
 {%highlight bash %}
