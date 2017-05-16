@@ -22,13 +22,14 @@ $ mkdir /var/cache/oracle-jdk8-installer
 $ mv ./jdk-8u60-linux-x64.tar.gz /var/cache/oracle-jdk8-installer
 $ dpkg -i ./oracle-java8-installer_8u60+8u60arm-1~webupd8~1_all.deb
 Selecting previously unselected package oracle-java8-installer.
-...
+...# A lot of output here
 Oracle JDK 8 installed
 update-alternatives: using /usr/lib/jvm/java-8-oracle/jre/lib/amd64/libnpjp2.so to provide /usr/lib/mozilla/plugins/libjavaplugin.so (mozilla-javaplugin.so) in auto mode
 Oracle JRE 8 browser plugin installed
 Processing triggers for shared-mime-info (1.2-0ubuntu3) ...
 Processing triggers for mime-support (3.54ubuntu1) ...
-root@phxdbx1021:/tmp# java -version
+
+$ java -version
 java version "1.8.0_60"
 Java(TM) SE Runtime Environment (build 1.8.0_60-b27)
 Java HotSpot(TM) 64-Bit Server VM (build 25.60-b23, mixed mode)
