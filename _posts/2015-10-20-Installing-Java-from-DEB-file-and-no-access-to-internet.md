@@ -17,7 +17,7 @@ On target Ubuntu box, execute following:
  - Create folder `/var/cache/oracle-jdk8-installer` and place TAR.GZ file there (change folder name if nessesary)
  - Execute `install` on DEB file
  
-```bash
+```sh
 $ mkdir /var/cache/oracle-jdk8-installer
 $ mv ./jdk-8u60-linux-x64.tar.gz /var/cache/oracle-jdk8-installer
 $ dpkg -i ./oracle-java8-installer_8u60+8u60arm-1~webupd8~1_all.deb
