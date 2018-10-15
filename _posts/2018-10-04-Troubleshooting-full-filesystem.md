@@ -1,6 +1,7 @@
 ---
 title: Troubleshooting full filesystem
 layout: post
+tags: [Linux, Ubuntu]
 ---
 There are several cases when disk might become 100% full and they have different solutions.
 

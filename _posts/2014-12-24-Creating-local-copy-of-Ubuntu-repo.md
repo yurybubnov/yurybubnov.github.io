@@ -1,6 +1,7 @@
 ---
 title: Creating Local Copy Of Ubuntu Repo
 layout: post
+tags: [Ubuntu, Apt]
 ---
 
 Sometime production servers are located behind firewall but some software needs to be installed. Usually, copy of Ubuntu's main repository already exists but you might find yourself in situation when you need packages from third-party sources.

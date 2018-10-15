@@ -1,7 +1,8 @@
 ---
 title: Running JMeter in cluster on Ubuntu
 layout: post
----
+tags: [Java, JMeter]
+--- 
 
 There are several catches when you want to run Jmeter in cluster set up. 
 

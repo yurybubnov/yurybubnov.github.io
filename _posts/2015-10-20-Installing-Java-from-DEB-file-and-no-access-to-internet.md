@@ -1,6 +1,7 @@
 ---
 title: Installing Java from DEB file and no access to internet
 layout: post
+tags: [Ubuntu, Java]
 ---
 
 Sometome you need to install Oracle Java on Ubuntu box which has no access to internet. Here are the steps whick will help to install it with help of [webupd8team](https://launchpad.net/~webupd8team/+archive/ubuntu/java). 
